@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    
+    <folder name="Editors">
+        <folder name="text">
+            <folder name="x-ownlang">
+
+                <attr name="displayName" bundlevalue="com.annimon.ownlang.Bundle#Editors/text/x-ownlang"/>
+
+                <folder name="FontsColors">
+                    <folder name="NetBeans">
+                        <folder name="Defaults">
+                            <file name="FontAndColors.xml">
+                                <attr name="displayName" bundlevalue="com.annimon.ownlang.Bundle#Editors/text/x-ownlang/FontsColors/NetBeans/Defaults/FontAndColors.xml"/>
+                            </file>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    
+    <folder name="OptionsDialog">
+        <folder name="PreviewExamples">
+            <folder name="text">
+                <file name="x-ownlang" url="OwnLangTemplate.own"/>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

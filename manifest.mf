@@ -1,6 +1,7 @@
 Manifest-Version: 1.0
 AutoUpdate-Show-In-Client: true
 OpenIDE-Module: com.annimon.ownlang.netbeans
+OpenIDE-Module-Layer: com/annimon/ownlang/netbeans/filetype/layer.xml
 OpenIDE-Module-Localizing-Bundle: com/annimon/ownlang/netbeans/Bundle.properties
 OpenIDE-Module-Specification-Version: 1.0
 
