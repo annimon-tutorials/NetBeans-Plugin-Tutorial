@@ -17,6 +17,12 @@
                         </folder>
                     </folder>
                 </folder>
+                
+                <folder name="CodeTemplates">
+                    <folder name="Defaults">
+                        <file name="code-templates.xml" url="code-templates.xml"/>
+                    </folder>
+                </folder>
             </folder>
         </folder>
     </folder>
