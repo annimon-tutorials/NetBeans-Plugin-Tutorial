@@ -23,6 +23,9 @@
                         <file name="code-templates.xml" url="code-templates.xml"/>
                     </folder>
                 </folder>
+                
+                <file name="com-annimon-ownlang-netbeans-parser-OwnLangParserFactory.instance"/>
+                <file name="com-annimon-ownlang-netbeans-parser-errorhighlighting-OwnLangSyntaxErrorHighlightingTaskFactory.instance"/>
             </folder>
         </folder>
     </folder>
