@@ -127,6 +127,10 @@ public final class Lexer {
         return tokens;
     }
     
+    public boolean isEOF() {
+        return pos >= length;
+    }
+    
     public Token nextToken() {
         final char current = peek(0);
         if (Character.isDigit(current)) return tokenizeNumber();
