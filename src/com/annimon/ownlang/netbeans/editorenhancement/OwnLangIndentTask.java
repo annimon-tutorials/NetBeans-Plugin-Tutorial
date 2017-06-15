@@ -17,7 +17,11 @@ public class OwnLangIndentTask implements IndentTask {
     public void reindent() throws BadLocationException {
         int currentLineStart = context.lineStartOffset(context.caretOffset());
         int currentIndent = context.lineIndent(currentLineStart);
-        int previousLineStart = context.lineStartOffset(currentLineStart - currentIndent - 1);
+        int previousLineIndex = currentLineStart - currentIndent - 1;
+        if (previousLineIndex < 0) {
+            return;
+        }
+        int previousLineStart = context.lineStartOffset(previousLineIndex);
         int previousIndent = context.lineIndent(previousLineStart);
         String previousLineText = context.document().getText(previousLineStart,
                 currentLineStart - previousLineStart - 1);
