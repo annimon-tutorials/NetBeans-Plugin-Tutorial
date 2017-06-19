@@ -15,7 +15,7 @@ public final class PrintStatement extends InterruptableNode implements Statement
     @Override
     public void execute() {
         super.interruptionCheck();
-        // Console.print(expression.eval().asString());
+        System.out.print(expression.eval().asString());
     }
     
     @Override
